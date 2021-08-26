@@ -1,8 +1,15 @@
-#include<stdio.h>
-int main
+  
+#include <stdio.h>
+
+
+/**
+ * main - This is the entry point of the project
+ *
+ * Return: always 0
+ */
+
+int main(void)
 {
-//This program initialises the string for printing
-char Mystr [] = "Programming is like building a multilingual puzzle \n";
-puts(Mystr); //Printing the string to stdout
-Return 0;
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
