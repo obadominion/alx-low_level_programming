@@ -1,4 +1,3 @@
-  
 #include <stdio.h>
 /**
  * main - prints all possible combinations of single digit numbers.
@@ -20,5 +19,5 @@ int main(void)
 		++i;
 	}
 	putchar('\n');
-	return (0);
+	return (0)
 }
