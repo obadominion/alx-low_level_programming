@@ -6,14 +6,13 @@
 */
 int main(void)
 {
-	int _putchar(char c)
-	char *c = "_putchar";
+	char *ch = "_putchar";
 
-	while (*c)
+	while (*ch)
 	{
-		_putchar(*c);
-		c++;
+		_putchar(*ch);
+		ch++;
 	}
 	_putchar('\n');
-return (0);
+return 0;
 }
