@@ -5,22 +5,12 @@
 *Return: 1 if uppercase, else 0
 */
 int _isupper(int c)
+{
 
-{
-printf("please enter an alphabetical character\n");
-scanf("%c", &c);
-switch (c)
-{
-case 'A' ... 'Z':
+if ((c >= 'A') && (c <= 'Z'))
+
 return (1);
-break;
+else
 
-case 'a' ... 'z':
 return (0);
-break;
-
-default:
-printf("invalid input");
-}
-
 }
