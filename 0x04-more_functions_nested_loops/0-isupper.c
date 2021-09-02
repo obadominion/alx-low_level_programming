@@ -5,12 +5,22 @@
 *Return: 1 if uppercase, else 0
 */
 int _isupper(int c)
+
 {
+printf("please enter an alphabetical character\n");
+scanf("%c", &c);
+switch (c)
+{
+case 'A' ... 'Z':
+return (1);
+break;
 
-	if ((c >= 'A') && (c <= 'Z'))
+case 'a' ... 'z':
+return (0);
+break;
 
-		return (1);
-	else
+default:
+printf("invalid input");
+}
 
-	return (0);
 }
